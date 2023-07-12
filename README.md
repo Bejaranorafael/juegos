@@ -3,11 +3,11 @@
 
 ## Índice
 1. [Introducción](#introducción)
-2. [Características](#características)
-3. [Instalación](#instalación)
-4. [Uso](#uso)
-5. [Contribuciones](#contribuciones)
-6. [Licencia](#licencia)
+
+
+2. [Uso](#uso)
+
+
 
 ## Introducción
 Este es una primera presentacion de una web con un menu con juegos didacticos y de memoria cognitiva
