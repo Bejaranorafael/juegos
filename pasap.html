@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="paspalabra.css">
+   
+    <title>Pasapalabra</title>
+</head>
+<body>
+  <button id="menu-toggle">Menu</button>
+    
+    <div id="menu">
+      <ul>
+        <li><a href="index.html">Memoria</a></li>
+        <li><a href="rubik.html">Rubik</a></li>
+        <li><a href="pasap.html">Pasapalabra</a></li>
+        <li><a href="puntajes.html">Puntajes</a></li>
+        <li><a href="tesoro.html">Tesoro</a></li>
+      </ul>
+    </div>
+    <div id="game-container">
+      <h1>Pasapalabra</h1>
+      <div id="question-container">
+          <div id="letter"></div>
+          <div id="question"></div>
+      </div>
+      <div id="input-container">
+          <label>Respuesta:</label>
+          <input type="text" id="input-answer" autocomplete="off">
+          <button id="submit-button">Enviar</button>
+      </div>
+      <div id="result"></div>
+      <div id="score"></div>
+      <div id="letters-container"></div>
+      <button id="restart-button">Reiniciar</button>
+  </div>
+   
+
+    <script src="pasapalabra.js"></script>
+</body>
+</html>

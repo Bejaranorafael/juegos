@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rubikstyle.css">
+    <link rel="stylesheet" href="style.css">
+    <title>RUBIK</title>
+</head>
+<body>
+    <H1>ESTO ES UN JUEGO DE RUBIK</H1>
+    <button id="menu-toggle">Menu</button>
+    
+    <div id="menu">
+      <ul>
+        <li><a href="index.html">MEMORIA</a></li>
+        <li><a href="rubik.html">Rubik</a></li>
+        <li><a href="pasap.html">Pasapalabra</a></li>
+        <li><a href="puntajes.html">Puntajes</a></li>
+        <li><a href="tesoro.html">Tesoro</a></li>
+      </ul>
+    </div>
+    
+    <div id="rubik-container">
+        <div id="rubik">
+          <div class="face front" onclick="rotateFace('front')"></div>
+          <div class="face back" onclick="rotateFace('back')"></div>
+          <div class="face left" onclick="rotateFace('left')"></div>
+          <div class="face right" onclick="rotateFace('right')"></div>
+          <div class="face up" onclick="rotateFace('up')"></div>
+          <div class="face down" onclick="rotateFace('down')"></div>
+        </div>
+      </div>
+      <script src="giro.js"></script>
+      
+    
+</body>
+</html>

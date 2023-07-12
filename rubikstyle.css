@@ -1,0 +1,49 @@
+#rubik-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #rubik {
+    width: 300px;
+    height: 300px;
+    perspective: 800px;
+  }
+  
+  .face {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border: 2px solid #000;
+  }
+  
+  .front {
+    transform: translateZ(150px);
+    background-color: blue;
+  }
+  
+  .back {
+    transform: rotateY(180deg) translateZ(150px);
+    background-color: green;
+  }
+  
+  .left {
+    transform: rotateY(-90deg) translateZ(150px);
+    background-color: orange;
+  }
+  
+  .right {
+    transform: rotateY(90deg) translateZ(150px);
+    background-color: red;
+  }
+  
+  .up {
+    transform: rotateX(90deg) translateZ(150px);
+    background-color: white;
+  }
+  
+  .down {
+    transform: rotateX(-90deg) translateZ(150px);
+    background-color: yellow;
+  }
